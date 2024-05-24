@@ -1,0 +1,57 @@
+.carousel-item img {
+    max-width: 100%; 
+    max-height: 500px; 
+  }
+  fieldset {
+    position: relative;
+   
+}
+.fieldset-button {
+    background-color:red;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+
+}
+  story-content {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.story-content .text {
+    flex: 1;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.story-content .image {
+    flex: 1;
+}
+.story-content .image img {
+    width: 100%;
+    height: auto;
+} 
+.image {
+    display: block;
+     width: 50%;
+     height: auto;
+}
+.para {
+    color: hsl(200, 92%, 45%);
+}
+  footer {
+    background: rgb(242, 219, 189);
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.footer-content h3 {
+    margin-bottom: 10px;
+
+}
